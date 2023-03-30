@@ -1,0 +1,46 @@
+body{
+background: url(https://cdnn21.img.ria.ru/images/07e5/0c/1c/1765893080_0:0:1440:810_1920x0_80_0_0_82b6d6274affbf6137ea4272fb1121cf.jpg);
+}
+.movies{
+    width: 50vw;
+    margin: 0 auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+.movie-n:hover{
+    cursor: pointer;
+    transform: scale(0.7);
+}
+.movie-n{
+    margin-top: 10px;
+    /* background-color: rgba(239, 205, 239, 0.352); */
+    width: 200px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+}
+.poster{
+    padding-top: 10px;
+    width: 180px;
+    height: 180pxs;
+}
+.movies h2  {
+    /* background-color: rgba(0, 0, 255, 0.607); */
+    /* opacity: 0.5; */
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black
+}
+.movies h5 {
+font-size: 20px;
+color: white;
+text-shadow: 2px 2px 2px black
+}
