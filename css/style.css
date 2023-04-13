@@ -1,8 +1,52 @@
-body{
-background: url(https://cdnn21.img.ria.ru/images/07e5/0c/1c/1765893080_0:0:1440:810_1920x0_80_0_0_82b6d6274affbf6137ea4272fb1121cf.jpg);
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+    
+ }
+ .nav-r{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+ }
+.nav p{
+font-family: 'Cinzel Decorative', cursive;
+font-size: 24px;
 }
-.movies{
-    width: 50vw;
+.search-box{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 12px 20px 12px 10px;
+    
+}
+.search{
+    max-width: 100%;
+    width: 80%;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    /* text-align: center; */
+}
+.nav  a  {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+ .movies{
+    width: 100%;
     margin: 0 auto;
     border: none;
     display: flex;
@@ -14,33 +58,32 @@ background: url(https://cdnn21.img.ria.ru/images/07e5/0c/1c/1765893080_0:0:1440:
 }
 .movie-n:hover{
     cursor: pointer;
-    transform: scale(0.7);
+    /* transform: scale(0.7); */
+    border: 2px solid black;
 }
 .movie-n{
-    margin-top: 10px;
-    /* background-color: rgba(239, 205, 239, 0.352); */
-    width: 200px;
-    padding: 8px;
+    margin-top: 10px; 
+ background-color: black;
+    width: 250px;
+   
     border: 1px solid white;
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
+    
 }
 .poster{
-    padding-top: 10px;
-    width: 180px;
-    height: 180pxs;
+ 
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
 }
 .movies h2  {
-    /* background-color: rgba(0, 0, 255, 0.607); */
-    /* opacity: 0.5; */
-    border-radius: 15px;
     font-weight: bold;
     color: white;
-    font-size: 16px;
-    text-shadow: 1px 1px 1px black
+    font-size: 18px;
 }
 .movies h5 {
 font-size: 20px;
 color: white;
 text-shadow: 2px 2px 2px black
-}
+}   
